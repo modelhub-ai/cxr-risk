@@ -1,0 +1,13 @@
+{
+  "docker_id": "modelhub/fastai-modelhub:1",
+  "external_contrib_files": [
+    {
+      "src_url": "https://github.com/modelhub-ai/cxr-risk/releases/download/v1.0/cxr-risk_v1.pth",
+      "dest_file_path": "/contrib_src/model/cxr-risk_v1.pth"
+    },
+    {
+      "src_url": "https://github.com/modelhub-ai/cxr-risk/releases/download/v1.0/inceptionv4-8e4777a0.pth",
+      "dest_file_path": "/root/.cache/torch/checkpoints/inceptionv4-8e4777a0.pth"
+    }
+  ]
+}

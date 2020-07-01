@@ -1,0 +1,7 @@
+*.pyc
+/__pycache__
+*checkpoint.ipynb
+# exclude all medical images:
+.vscode 
+/.vscode
+*.model
