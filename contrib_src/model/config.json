@@ -20,7 +20,7 @@
     "bibtex": "@article{10.1001/jamanetworkopen.2019.7416, author = {Lu, Michael T. and Ivanov, Alexander and Mayrhofer, Thomas and Hosny, Ahmed and Aerts, Hugo J. W. L. and Hoffmann, Udo}, title = '{Deep Learning to Assess Long-term Mortality From Chest Radiographs}', journal = {JAMA Network Open}, volume = {2}, number = {7}, pages = {e197416-e197416}, year = {2019}, month = {07}, issn = {2574-3805}, doi = {10.1001/jamanetworkopen.2019.7416}, url = {https://doi.org/10.1001/jamanetworkopen.2019.7416},}"
   },
   "model": {
-    "description": "CXR pregnosis is a fine tuned residual network based on ResNet-34. It predicts all-cause mortality in chest xrays.",
+    "description": "CXR-Risk is a CNN that predicts the risk of 12-year all-cause mortality based on a chest radiograph image.",
     "provenance": "Conrtibuted by author.",
     "architecture": "Convolutional Neural Network (CNN)",
     "learning_type": "Supervised learning",
